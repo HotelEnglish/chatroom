@@ -3,7 +3,7 @@ main = "src/worker.js"
 compatibility_date = "2024-01-01"
 
 kv_namespaces = [
-  { binding = "MESSAGES", id = "您的KV命名空间ID" }
+  { binding = "MESSAGES", id = "80b1f0ed050546b198ce3ef78a31c1a8" }
 ]
 
 [env.production]
