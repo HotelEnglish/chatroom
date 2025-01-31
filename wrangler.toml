@@ -1,0 +1,12 @@
+name = "chat-app"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+kv_namespaces = [
+  { binding = "MESSAGES", id = "您的KV命名空间ID" }
+]
+
+[env.production]
+routes = [
+  { pattern = "/api/*", script = "api/*" }
+] 
